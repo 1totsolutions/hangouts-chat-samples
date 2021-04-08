@@ -19,6 +19,7 @@
 const fetch = require('node-fetch');
 
 const webhookURL = '<INCOMING-WEBHOOK-URL>';
+const webhookURL = '<https://chat.googleapis.com/v1/spaces/AAAAiNV_GDA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=V36r9V0QDmiSzWPKgknjoTF7luw5W0gncUqSk4shlAs%3D>';
 
 const data = JSON.stringify({
   'text': 'Hello from a Node script!',
